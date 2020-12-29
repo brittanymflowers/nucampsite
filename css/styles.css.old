@@ -3,7 +3,7 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Lobster", sans-serif;
 }
 
 h2 {
@@ -22,7 +22,7 @@ header h2 {
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, #901CAD, rgb(22, 66, 22), #5e8eb4);
+    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
     color: white;
 }
 
@@ -33,7 +33,7 @@ header h2 {
 }
 
 .navbar {
-    background-color: #38682f;
+    background-color: #901CAD;
 }
 
 a, a:hover {
@@ -49,10 +49,9 @@ a, a:hover {
     border: solid #5637DD;
 }
 
-.btn-primary {
-    background-color: #38682f;
-}
-
-.bg-primary {
-    background-color: #38682f;
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
 }
